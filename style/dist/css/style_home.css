@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section_formulaire{
+    background-image: url('../../../image/img5.png');
+    background-size: auto;
+    background-color: #114C92;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+}
+.form_sins{
+    height: 500px;
+    background-size: contain;
+	background-image: url('../../../image/img6.png');
+    background-position: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.form_sins_fom{
+	display: inline;
+	position: relative;
+	left: 30px;
+}
+.form_sins_fom > form > div > input{
+	width: 500px;
+}
+.btn_entete{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+.item_foot{
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    padding: 5px;
+}
+

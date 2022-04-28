@@ -1,0 +1,41 @@
+/* Show it is fixed to the top */
+@import url('http://fonts.cdnfonts.com/css/far-from-homecoming');
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+} 
+body {
+  background-image: url("../../../image/img1.png");
+  background-size: contain;
+  background-color: #b11313;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
+.navbar_style > .nav-item {
+	display: inline-block;
+	position: relative;
+}
+
+.nav-item{
+	padding: 0px;
+	margin: 0px;
+	margin-right: 100px;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: lighter;
+	word-spacing: 5px;
+
+}
+

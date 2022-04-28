@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPIDERMANS</title>
+    <!-- Bootstrap core CSS -->
+    <link href="style/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- style navigation bar -->
+    <link href="style/dist/css/navbar-top-fixed.css" rel="stylesheet">
+     <!-- style page d'acceuil -->
+    <link href="style/dist/css/style_home.css" rel="stylesheet">
+
+    <style>
+      @media (min-width: 600px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+        .navbar{
+          background-color: #B11313;
+        }
+        footer{
+          margin-top: 110px;
+        }
+       
+      } 
+      @media (max-width: 600px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+
+        .navbar_style > .nav-item {
+	        display: block;
+      }
+
+    #navbarCollapse{
+        background-color: rgba(0, 0, 0, 0.521);
+      }
+
+      .cache{
+        display: none;
+      }
+      .img_cart_width{
+        width: 350px;
+      }
+      footer{
+        margin-top: 52px;
+      }
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- bar de navigation -->
+<nav class="navbar navbar-expand-md navbar-dark" style="position: absolute;top: 0px;width: 100%;">
+  <div class="container-fluid" >
+    <a class="navbar-brand cache" href="#"><span style="margin-left: 40px;"><img src="Logo/logo1.png" width="30px"></span><span  style="padding: 15px;"><img src="Logo/logo2.png"></span><span ><img src="Logo/logo3.png" width="90px"></span></a>
+    <span style="border: none;"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+      <a class="navbar-brand " id="shwcollaps" href="#"><span style="margin-left: 40px;"><img src="Logo/logo1.png" width="50px"></span><span  style="padding: 15px;"><img src="Logo/logo2.png" width="23px"></span><span ><img src="Logo/logo3.png" width="130px" height="50px"></span></a>
+    </span>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse" >
+      <ul class="navbar_style mb-2 mb-md-0 " style="margin: 0px auto;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Adversaire</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Héros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A propos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- TITRE -->
+<div class="container" style="margin-top: 80px;">
+  <h1 style="color: white;font-family: 'Far From Homecoming', sans-serif;font-size: 50px;font-weight: bold;">SPIDERMAN</h1>
+  <div class="container" style="margin-top: 60px;">
+    <button id="btn1"class="btn_entete" >Voir les Héros</button>
+    <button id="btn2" class="btn_entete">Voir les advérsaire</button>
+  </div>
+  <h3 style="line-height :70px;color: white;">L'araignée sympa du quartier</h2>
+</div>
+
+ <!-- les cartes represente chaque personnage de spiderman -->
+  <div class="container" style="margin-top: 90px;">
+    <div class="row">
+      <div class="col-md-8" style="color: white;">
+        <h1 style="font-family: 'Far From Homecoming', sans-serif;font-size:30px">LES SPIDERMANS AU CINEMA !</h1>
+        <p>L'univers de l'araignée justicière te passionne ? Reste au courant des dernières actualité grâce à notre newletter</p>
+    </div>
+    </div>
+    </div>
+  <div class="container">
+  
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col" style="height: 780px;" >
+        <div  style="height: 600px;color: white;" >
+          <center>
+              <img class="card-img-top img_cart_width"   src="image/img2.png" style="height:380px;">
+          </center>
+          <div class="card-body">
+            <p class="card-text" style="font-size: 14px;">Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Columbia Pictures et Spiderman est, incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi (le réalisateur) et Sony. Cette première trilogie a connu un grand succès auprès des fans et du grand public. L'épisode 3 reste à ce jour un des films les plus chers de l'histoire du cinéma.
+              </p>
+            <div class="d-flex justify-content-center align-items-center">
+               <button type="button" style="background-color: aliceblue;width: 200px;height: 50px;border: 1px solid white;border-radius: 30px;color: #B11313;">Voir ses adversaire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col" style="height: 750px;">
+        <div style="height: 600px;color: white;">
+          <center>
+              <img class="card-img-top img_cart_width" width="100%" height="380" src="image/img3.png">
+          </center>
+          <div class="card-body">
+            <p class="card-text" style="font-size: 14px;" >The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield qui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, The Amazing Spider-Man : Le destin d'un héros, est sorti en 2014 et a reçu des critiques très mitigées. Un troisième et quatrième film étaient prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématographique Marvel et abandonne ainsi The Amazing Spider-Man.
+              </p>
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" style="background-color: aliceblue;color: #B11313;width: 200px;height: 50px;border: 1px solid white;border-radius: 30px;">Voir ses adversaire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="height: 750px;">
+        <div class="" style="height: 600px;color: white;">
+          <center>
+                   <img class="bd-placeholder-img card-img-top img_cart_width" width="100%" height="380" src="image/img4.png">
+          </center>
+          <div class="card-body ">
+            <p class="card-text" style="font-size: 12px;">Spiderman, désormais incarné par Tom Holland, apparait pour la première fois dans l'univers Marvel avce captain America: Civil War, sorti en 2016. Par la suite, une trilogie de films lui est consacrée :<br> .Spiderman: Homecoming(2017)<br>.Spiderman: Far From Home (2019)<br>.Spiderman: No Way Home (2021)<br>Le héro est également présenat dans Avangers infinity War et Avengers End Game, Combattant au coté des avengers.</p>
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" style="color: #B11313;background-color: aliceblue;width: 200px;height: 50px;border: 1px solid white;border-radius: 30px;">Voir ses adversaire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<!-- formulaire pour demander de costume -->
+      <div class="section_formulaire">
+        <div class="row align-items-center g-lg-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5">
+              <div class="form-floating mb-3">
+                <h1 style="font-family: 'Far From Homecoming', sans-serif;font-size:28px;color: white;font-weight: bold;text-align: center;;">DEVIENS SPIDERMAN!</h1>
+                <p style="color: white;font-family: Verdana, sans-serif;font-size: 13px;width: 700px;">Rempli le formulaire ci dessous afin de recevoir ton propre costume</p>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="nom" class="form-control" id="floatingInput" placeholder="jack" style="height: 45px;border: 2px solid black;border-radius: 40px;line-height: 50px;">
+                <label for="floatingInput">Nom</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="prenom" class="form-control" id="floatingPassword" placeholder="mina" style="height: 45px;border: 2px solid black;border-radius: 40px;">
+                <label for="floatingPassword">Prénom</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="180" style="height: 45px;border: 2px solid black;border-radius: 40px;">
+                <label for="floatingPassword">Taille(cm)</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="60" style="height: 45px;border: 2px solid black;border-radius: 40px;">
+                <label for="floatingPassword">Poids(KG)</label>
+              </div>
+              <div class="text-center">            
+                <button class="d-5"style="border:2px solid white;background-color:transparent;width: 140px;height: 50px;border-radius: 50px;color: white;" type="submit">Envoyer</button>
+             </div>
+            </form>
+          </div>
+        </div>
+      </div>
+<!-- inscription à la newsletter -->
+<div class="container-fluid form_sins" style="position: relative;top: 110px;">
+  <div style="color: white;">
+      <h1 style="color: white;font-family: 'Far From Homecoming';text-transform: uppercase;font-size: 20px;">Inscrit toi à la news letter</h1>
+      <p style="width: 550px;">L'univers de l'araigné justicière te passionne ? Rest au courant des dernière actualité gràce à notre newletter</p>
+  </div>
+  <div >
+
+    <div >
+      <form >
+        <div class="form-floating mb-4">
+          <input type="nomComplet" class="form-control" id="floatingInput" placeholder="jack" style="width:400px;height: 45px;border: 1px solid rgb(255, 255, 255);border-radius: 40px;line-height: 50px;color: white;background-color: transparent;">
+          <label for="floatingInput" style="color: white;">Nom, Prénom</label>
+        </div>
+        <div class="form-floating">
+          <input type="mail" class="form-control" id="floatingPassword" placeholder="mina" style="width:400px;height: 45px;border: 2px solid rgb(255, 255, 255);border-radius: 40px;color: white;background-color: transparent;">
+              <label for="floatingPassword" style="color: white;">Addresse email</label>
+        </div>
+        <div style="width: 400px;color: white;margin-top: 15px;">
+          <div class="container form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="width: 30px;height: 30px;margin: 6px;">
+            <label class="form-check-label" for="flexCheckDefault">
+             Je reconnais accepter <u>le politique de confidentialité</u> de Sayna XMarvel
+            </label>
+          </div>
+        </div>
+        <div class="mb-3 text-center" style="width: 400px;margin-top: 17px;">
+          <button style="border:2px solid white;background-color:white;height: 50px;border-radius: 50px;color: #b11313;width:270px;" type="submit">S'inscrire à la newsletter</button>
+
+        </div>
+      </form>
+    </div>
+   
+  </div>
+</div>
+
+
+<!-- Footer retrouver ici le pied du page-->
+<footer class="bg-dark" >
+  <div class="container  boit_ulfooter" style="margin: 0px auto;">
+    <center>
+  <ul style="color: white;list-style: none;margin: 12px;">
+    <li class="item_foot">Mobile app</li>
+    <li class="item_foot">Politique de confidentialité</li>
+    <li class="item_foot">Cookies</li>
+    <li class="item_foot"><img src="logo/logo1.png" width="30px"><img src="logo/logo2.png"><img src="logo/logo3.png" width="90px"></li>
+    <li class="item_foot">Contact</li>
+    <li class="item_foot">blog</li>
+    <li class="item_foot">
+      <div class="dropdown" >
+        <button class="dropdown-toggle" type="button" id="deroulant" data-bs-toggle="dropdown" aria-expanded="false" style="border:none;background-color:#b11313;color:white;width: 150px;height: 40px;border-radius: 15px;">
+            Langues
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="deroulant" style="background-color: #b11313;">
+            <li><a class="dropdown-item bg-transparent" href="#"><button type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"style="background-color:transparent;border:none;color:white;">Anglais</button></a></li>
+            <li><a class="dropdown-item bg-transparent" href="#"><button type="button"  data-bs-toggle="modal" data-bs-target="#modalsheet" style="background-color:transparent;border:none;color:white;">Français</button></a></li>
+        </ul>
+    </div>
+    </li>
+  </ul>
+</center>
+</div>
+    <!-- Section: Social media -->
+    <section class="mb-4 container text-center">
+      <!-- Facebook -->
+      <a class="btn  btn-floating m-1" href="#!" role="button"style="background-color: #B11313;border-radius: 100px;">
+        <img src="logo/logof.png"></a>
+
+      <!-- instagram -->
+      <a class="btn -light btn-floating m-1" href="#!" role="button" style="background-color: #B11313;border-radius: 100px;">
+        <img src="logo/logoi.png">
+      </a>
+    
+
+      <!-- youtube -->
+      <a class="btn  btn-floating m-1" href="#!" role="button" style="background-color: #B11313;border-radius: 100px;">
+        <img src="logo/logoy.png" >
+      </a>
+      <!-- twitter -->
+      <a class="btn  btn-floating m-1" href="#!" role="button" style="background-color: #B11313;border-radius: 100px;">
+          <img src="logo/logot.png" >
+      </a>
+
+    </section>
+    <!-- audio -->
+    <div class="text-center p-3">
+      <audio controls style="height: 20px;" autoplay >
+        <source src="audio/audio1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);color: white;">
+    <p>©SaynaXMarvel,Inc.2022. We love our usrs!</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    <script src="style/dist/js/bootstrap.bundle.min.js"></script>   
+    <script src="style/dist/js/evenement.js"></script>   
+
+  </body>
+</html>
